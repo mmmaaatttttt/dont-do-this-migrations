@@ -16,3 +16,4 @@ class Movie(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.Text)
     director = db.Column(db.Text)
+    runtime = db.Column(db.Integer)
